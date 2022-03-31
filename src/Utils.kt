@@ -12,4 +12,4 @@ object Utils {
 
 }
 
-data class Persona(var nombre: String, var edad: Int)
+data class Persona(var nombre: String? = null, var edad: Int? = null, var city: String? = null)

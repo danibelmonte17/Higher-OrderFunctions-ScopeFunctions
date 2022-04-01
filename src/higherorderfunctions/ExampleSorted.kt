@@ -1,5 +1,7 @@
 package higherorderfunctions
 
+import Utils
+
 fun exampleSorted(){
     println(Utils.numberStringList.sorted())
     println(Utils.numberStringList.sortedDescending())
